@@ -2,7 +2,7 @@
 
 How do I write a JUnit test to consume a PagedResources<T> in Spring Boot?
 
-In this example I face a problem to write a junit test, which consumes a HAL-formatted rest-service. As I understand I can use MockRestServiceServer to fake a communication. You can find [here](https://github.com/maximilianwollnik/stackoverflow) two simple spring applications; one which provides a HAL-formatted rest-service and one which consumes it. Everything works fine, when both services are started up.
+In this example I face a problem to write a junit test, which consumes a HAL-formatted rest-service. As I understand I can use MockRestServiceServer to fake a communication. You can find [here](https://github.com/maximilianwollnik/stackoverflow/spring-data-rest_junit_consuming-rest) two simple spring applications; one which provides a HAL-formatted rest-service and one which consumes it. Everything works fine, when both services are started up.
 
 So, when you start both services with the command mvn spring-boot:run and you navigate to http://localhost:8080/products/list, then you can see the consumed rest-service.
 
